@@ -12,22 +12,28 @@ meta:
             height: 327
             type: image/jpg
 ---
-# About
+# About Me
 
-<img src="{{ site.gravatar.url }}?s=125" alt="Picture of Oliver" class="img-circle">
+<img src="{{ site.gravatar.url }}?s=100" alt="Picture of Oliver" class="img-circle">
 
-I’m a <a href="{{ site.drupalorg.url_nice }}">Drupal specialist</a> based in the UK, with experience of PHP and Symfony development and Linux server administration.
+My name is Oliver Davies, I’m a Web Developer and Drupal specialist based in Wales, UK.
 
-I’ve been working with Drupal and PHP since 2007, when I started as a hobbyist and part-time freelancer. I’ve been working full-time with Drupal since 2010 - including over a year at the [Drupal Association](https://assoc.drupal.org/about/) working on improving and maintaining [Drupal.org](https://www.drupal.org).
+Here is some information about me:
 
-I’m currently a Lead Developer at [CTI Digital](https://www.ctidigital.com/), and I also run my own freelance business.
+* I’m a full-stack PHP Developer and System Administrator, specialising in [Drupal](https://www.drupal.org), [Symfony](http://symfony.com), [Linux](https://en.wikipedia.org/wiki/Linux) and [Ansible](http://www.ansible.com).
+* I’m a {{ site.author.company.role }} at <a href="{{ site.author.company.website }}">{{ site.author.company.name }}</a>, and previously worked for the [Drupal Association](https://assoc.drupal.org).
+* I provide part-time freelance development and consultancy services.
+* I’m a Drupal 7 & 8 [core contributor](https://www.drupal.org/u/opdavies/issue-credits/3060), [contrib maintainer](https://www.drupal.org/project/user/381388) and [mentor](https://www.drupal.org/user/381388/people-mentored).
+* I’m a provisional member of the [Drupal Security Team](https://www.drupal.org/security-team) and the Git documentation maintainer for Drupal.org.
+* I’m the organiser of [Drupal Bristol](http://www.drupalbristol.org.uk) and [SWDUG](https://groups.drupal.org/wales-uk), and co-organiser of [PHPSW](https://phpsw.uk) and [DrupalCamp Bristol](http://www.drupalcampbristol.co.uk).
+* I [regularly speak](/talks/) at various user groups and conferences about topics including Drupal, PHP and Git.
 
-I’m a Drupal <a href="{{ site.drupalorg.url_nice }}/issue-credits/3060">core contributor</a> and <a href="https://www.drupal.org/project/user/{{ site.drupalorg.uid }}">contrib project maintainer</a>, have successfully <a href="{{ site.drupalorg.url }}/people-mentored">mentored new contributors</a> online and in-person since DrupalCon Prague in 2013, and am a provisional member of the [Drupal Security Team](https://www.drupal.org/security-team).
+## Elsewhere
 
-I’m an avid user and advocate of the [Git](http://git-scm.com) version control system, and am the [Git documentation maintainer](https://www.drupal.org/node/2248627#comment-8887789) for the Drupal project.
-
-I [regularly speak](/talks/) at conferences and user groups, organise Drupal meetups in [Cardiff](https://groups.drupal.org/wales-uk) and [Bristol](http://drupalbristol.org.uk), and am a co-organiser of [PHPSW](http://phpsw.uk). I’m also a founding committee member of [DrupalCamp Bristol](http://www.drupalcampbristol.co.uk).
-
-I build static websites with [Sculpin](https://sculpin.io), am currently learning [Symfony](http://symfony.com/) and [Silex](http://silex.sensiolabs.org/), and contribute to other open-source projects including [Drupal VM](http://www.drupalvm.com) (a Vagrant and Ansible based virtual environment for Drupal development), [COD](http://usecod.io) (the conference organising distribution, built on Drupal), and various [Puppet](https://puppetlabs.com/puppet/what-is-puppet/) modules and [Ansible](http://www.ansible.com/how-ansible-works) roles.
-
-You can follow me on <a href="{{ site.twitter.url }}">Twitter</a> and <a href="{{ site.linkedin.url }}">LinkedIn</a>, and you can view my code on <a href="{{ site.drupalorg.url }}/track/code">Drupal.org</a> and <a href="{{ site.github.url }}?tab=activity">GitHub</a>.
+* [Twitter](https://twitter.com/opdavies) - @opdavies
+* [Drupal.org](https://www.drupal.org/u/opdavies)
+* [GitHub](https://www.github.com/opdavies)
+* [Ansible Galaxy](https://galaxy.ansible.com/list#/users/14560)
+* [SpeakerDeck](https://speakerdeck.com/opdavies)
+* [LinkedIn](http://uk.linkedin.com/in/opdavies)
+* IRC - opdavies (freenode and OFTC)

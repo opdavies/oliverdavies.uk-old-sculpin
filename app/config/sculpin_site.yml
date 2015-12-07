@@ -6,6 +6,10 @@ email: oliver+website@oliverdavies.uk
 author:
     name: Oliver Davies
     bio: Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Lead Developer at <a href="http://ctidigital.com">CTI Digital</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.
+    company:
+        role: Lead Drupal Developer
+        name: CTI Digital
+        website: https://www.ctidigital.com
 
 twitter:
     url: http://twitter.com/opdavies
@@ -39,11 +43,10 @@ apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
 
 main_menu:
-    experience: { title: Experience, href: /experience/ }
-    testimonials: { title: Testimonials, href: /testimonials/ }
+#    experience: { title: Experience, href: /experience/ }
+#    testimonials: { title: Testimonials, href: /testimonials/ }
     talks: { title: Talks, href: /talks/ }
     blog: { title: Blog, href: /blog/ }
-    contact: { title: Contact, href: /contact/ }
 
 meetups:
     drupalbristol: { name: Drupal Bristol, logo: drupal-bristol.jpeg, url: https://groups.drupal.org/bristol-west-uk }
