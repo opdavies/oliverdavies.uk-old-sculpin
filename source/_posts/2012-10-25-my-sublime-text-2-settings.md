@@ -4,6 +4,8 @@ description: <a href="http://www.sublimetext.com/2" title="Sublime Text 2">Subli
 tags:
   - sublime-text
 use: [posts]
+redirect:
+    - blog/my-sublime-text-2-settings/
 ---
 {% block excerpt %}
 [Sublime Text 2](http://www.sublimetext.com/2) has been my text editor of choice for the past few months, and I use it at home, in work, and on any virtual machines that I run. So rather than having to manually re-enter my settings each time, I thought that I'd document them here for future reference.

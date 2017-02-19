@@ -5,6 +5,8 @@ tags:
   - drupalcon
   - precedent
 use: [posts]
+redirect:
+    - blog/going-to-drupalcon/
 ---
 {% block excerpt %}
 [Precedent](http://www.precedent.co.uk) are sending myself and two of our other Drupal Developers to [Drupalcon Prague](http://prague2013.drupal.org).

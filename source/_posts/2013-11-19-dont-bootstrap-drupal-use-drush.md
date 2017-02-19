@@ -5,6 +5,8 @@ tags:
   - drupal-planet
   - php
 use: [posts]
+redirect:
+    - blog/dont-bootstrap-drupal-use-drush/
 ---
 {% block excerpt %}
 There are times when doing Drupal development when you need to run a custom PHP script, maybe moving data from one field to another, that doesn't warrant the time and effort to create a custom module. In this scenario, it would be quicker to write a .php script and bootstrap Drupal to gain access to functions like `node_load()` and `db_query()`.

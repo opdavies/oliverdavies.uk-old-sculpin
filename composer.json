@@ -6,12 +6,13 @@
         "test": "behat"
     },
     "require": {
+        "php": "^5.5",
         "behat/mink-extension": "@stable",
         "behat/mink-goutte-driver": "@stable",
         "dflydev/embedded-composer": "^1.0@dev",
+        "mavimo/sculpin-redirect-bundle": "dev-master",
         "opdavies/sculpin-content-generator-bundle": "@stable",
         "opdavies/sculpin-gist-embed-bundle": "dev-master",
-        "php": "^5.5",
         "sculpin/sculpin": "^2.1@dev",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
     },

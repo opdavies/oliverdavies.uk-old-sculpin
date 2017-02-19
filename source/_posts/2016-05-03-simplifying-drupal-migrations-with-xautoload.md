@@ -7,6 +7,8 @@ tags:
     - drupal-7
     - php
 use: [posts]
+redirect:
+    - blog/simplifying-drupal-migrations-with-xautoload/
 ---
 {% block excerpt %}
 How to use the [xautoload][1] module to autoload migration classes within your Drupal 7 migration modules.

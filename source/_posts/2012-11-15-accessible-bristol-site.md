@@ -6,6 +6,8 @@ tags:
   - accessible-bristol
   - nomensa
 use: [posts]
+redirect:
+    - blog/accessible-bristol-site/
 ---
 {% block excerpt %}
 I'm happy to announce that the [Accessible Bristol](http://www.accessiblebristol.org.uk) website was launched this week, on Drupal 7.

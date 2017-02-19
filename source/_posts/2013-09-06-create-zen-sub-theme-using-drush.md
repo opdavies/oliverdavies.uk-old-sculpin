@@ -8,6 +8,8 @@ tags:
   - zen
   - theming
 use: [posts]
+redirect:
+    - blog/create-zen-subtheme-using-drush/
 ---
 {% block excerpt %}
 How to use [Drush](https://drupal.org/project/drush) to quickly build a new sub-theme of [Zen](https://drupal.org/project/zen).

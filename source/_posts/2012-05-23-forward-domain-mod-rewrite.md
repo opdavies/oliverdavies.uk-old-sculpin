@@ -8,6 +8,8 @@ tags:
   - apache
   - mod_rewrite
 use: [posts]
+redirect:
+    - blog/forward-domain-mod-rewrite/
 ---
 {% block excerpt %}
 How to use the .htaccess file to forward to a different domain.

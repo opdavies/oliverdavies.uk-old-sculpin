@@ -5,6 +5,8 @@ tags:
   - git
   - drupal-planet
 use: [posts]
+redirect:
+    - blog/quickly-apply-patches-using-git-and-curl-or-wget/
 ---
 {% block excerpt %}
 Testing a patch file is usually a two-step process. First you download the patch file from the source, and then you run a separate command to apply it.

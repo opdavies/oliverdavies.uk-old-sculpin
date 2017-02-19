@@ -4,6 +4,8 @@ slug: create-better-photo-gallery-drupal-part-21
 tags:
   - drupal
 use: [posts]
+redirect:
+    - blog/better-photo-gallery-21/
 ---
 Today, I realised that I hadn't published the code that I used to create the total figures of galleries and photos at the top of the gallery (I said at the end of [Part 2](/blog/create-better-photo-gallery-drupal-part-2/ "Create a Better Photo Gallery in Drupal - Part 2") that I'd include it in [Part 3](/blog/create-better-photo-gallery-drupal-part-3/ "Create a Better Photo Gallery in Drupal - Part 3"), but I forgot). So, here it is:
 

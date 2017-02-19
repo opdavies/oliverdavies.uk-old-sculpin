@@ -7,6 +7,8 @@ tags:
 meta:
   description: How to fix it when Vagrant loads the wrong virtual machine.
 use: [posts]
+redirect:
+    - blog/fix-vagrant-loading-wrong-virtual-machine/
 ---
 {% block excerpt %}
 A few times recently, I've had instances where [Vagrant](https://www.vagrantup.com) seems to have forgotten which virtual machine it's supposed to load, probably due to renaming a project directory or the .vagrant directory being moved accidentally.

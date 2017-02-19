@@ -9,6 +9,8 @@ tags:
   - php
   - aria
 use: [posts]
+redirect:
+    - blog/display-custom-menu-drupal-7-theme-template-file/
 ---
 {% block excerpt %}
 For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.
