@@ -2,6 +2,8 @@
 title: Drupal VM Generator 2.9.1 Released
 tags: ['drupal-vm-generator', releases]
 use: [posts]
+redirect:
+    - blog/drupal-vm-generator-updates/
 ---
 {% block excerpt %}
 I spent some time yesterday working on the [Drupal VM Generator][0], and have released versions 2.8.1, 2.9.0 and 2.9.1.

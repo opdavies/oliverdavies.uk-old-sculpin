@@ -6,6 +6,8 @@ tags:
   - ubuntu
   - version-control
 use: [posts]
+redirect:
+    - blog/install-and-configure-subversion-svn-server-ubuntu/
 ---
 Recently, I needed to set up a Subversion (SVN) server on a Ubuntu Linux server. This post is going to outline the steps taken, and the commands used, to install and configure the service.
 

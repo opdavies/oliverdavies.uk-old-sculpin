@@ -4,6 +4,8 @@ description: Here are the basic commands that you need to adminster a virtual ma
 tags:
   - vagrant
 use: [posts]
+redirect:
+    - blog/useful-vagrant-commands/
 ---
 {% block excerpt %}
 [Vagrant](http://www.vagrantup.com "About Vagrant") is a tool for managing virtual machines within [VirtualBox](https://www.virtualbox.org) from the command line. Here are some useful commands to know when using Vagrant.

@@ -9,6 +9,8 @@ tags:
   - drupal-planet
   - accessibility
 use: [posts]
+redirect:
+    - blog/my-new-drupal-modules/
 ---
 {% block excerpt %}
 After a busy few days, I've released two new contrib Drupal modules.

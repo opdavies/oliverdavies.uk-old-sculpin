@@ -10,6 +10,8 @@ tags:
     - twig
 slug: sculpin-twig-resources
 use: [posts]
+redirect:
+    - blog/sculpin-twig-resources/
 ---
 {% block excerpt %}
 Here’s a list of resources that I compiled whilst preparing for my [Sculpin and Twig talk](http://drupalcampnorth.org/session/test-drive-twig-sculpin) at [DrupalCamp North](http://drupalcampnorth.org).

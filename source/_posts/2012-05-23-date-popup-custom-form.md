@@ -10,6 +10,8 @@ tags:
   - drupal-planet
   - drupal
 use: [posts]
+redirect:
+    - blog/date-popup-custom-form/
 ---
 {% block excerpt %}
 How to use a date popup calendar within your custom module.

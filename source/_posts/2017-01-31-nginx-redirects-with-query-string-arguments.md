@@ -2,6 +2,8 @@
 title: Nginx Redirects With Query String Arguments
 tags: [nginx]
 use: [posts]
+redirect:
+    - blog/nginx-redirects-with-query-string-arguments/
 ---
 This is an example of how my Nginx configuration looked to redirect from an old domain to a new one, and also to redirect from the root `example.com` domain to the canonical `www` subdomain.
 ```

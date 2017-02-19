@@ -8,6 +8,8 @@ tags:
   - drupal-planet
   - drupal
 use: [posts]
+redirect:
+    - blog/some-useful-links-using-simpletest-drupal/
 ---
 {% block excerpt %}
 Here are some useful links that I've found when researching about unit testing in Drupal using SimpleTest.

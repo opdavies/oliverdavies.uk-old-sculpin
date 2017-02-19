@@ -2,6 +2,8 @@
 title: Site Upgraded to Drupal 7
 slug: site-upgraded-drupal-7
 use: [posts]
+redirect:
+    - blog/upgraded-drupal-7/
 ---
 As the vast majority of the Drupal websites that I currently work on are built on Drupal 7, I thought that it was time that I upgraded this site. Following the [core upgrade process](http://drupal.org/node/570162) and the [CCK migration process](http://drupal.org/node/1144136), everything was upgraded smoothly without any issues.
 

@@ -7,6 +7,8 @@ tags:
   - drupal-modules
   - teleport
 use: [posts]
+redirect:
+    - blog/review-teleport-module/
 ---
 As a heavily-reliant [Quicksilver](http://en.wikipedia.org/wiki/Quicksilver_%28software%29) user on my MacBook Pro, I was glad when I found the [Teleport](http://drupal.org/project/teleport) module for [Drupal](http://drupal.org) *(due to Elliott Rothman's [tweet](http://twitter.com/elliotttt/status/18044234238))*.
 

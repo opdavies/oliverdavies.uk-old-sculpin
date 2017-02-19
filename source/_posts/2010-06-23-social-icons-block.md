@@ -9,6 +9,8 @@ tags:
   - nodequeue
   - oliverdavies.co.uk
 use: [posts]
+redirect:
+    - blog/create-block-social-media-icons-using-cck-views-and-nodequeue/
 ---
 I recently decided that I wanted to have a block displayed in a sidebar on my site containing icons and links to my social media profiles - [Twitter](http://twitter.com/opdavies), [Facebook](http://facebook.com/opdavies) etc. I tried the [Follow](http://drupal.org/project/follow) module, but it lacked the option to add extra networks such my [Drupal.org](http://drupal.org/user/381388) account, and my [RSS feed](http://oliverdavies.co.uk/rss.xml). I started to create my own version, and then found [this Blog post](http://www.hankpalan.com/blog/drupal-themes/add-your-social-connections-drupal-icons) by Hank Palan.
 

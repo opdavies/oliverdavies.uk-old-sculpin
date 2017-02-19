@@ -9,6 +9,8 @@ tags:
   - drupal-planet
   - settings.php
 use: [posts]
+redirect:
+    - blog/include-local-drupal-settings-file-environment-configuration-and-overrides/
 ---
 {% block excerpt %}
 How to create and include a local settings file to define and override environment-specific variables, and keep sensitive things like your database credentials and API keys safe.

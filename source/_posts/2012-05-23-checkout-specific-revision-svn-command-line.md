@@ -5,6 +5,8 @@ tags:
   - svn
   - version-control
 use: [posts]
+redirect:
+    - blog/checkout-specific-revision-svn-command-line/
 ---
 {% block excerpt %}
 How to checkout a specific revision from a SVN (Subversion) repository.

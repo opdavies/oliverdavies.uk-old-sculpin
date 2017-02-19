@@ -6,6 +6,8 @@ tags:
   - code
   - drupal
 use: [posts]
+redirect:
+    - blog/apache-text-files/
 ---
 {% block excerpt %}
 When you download [Drupal](http://drupal.org/project/drupal), there are several text files that are placed in the root of your installation. You don't want or need these to be visible to anyone attempting to view them in a browser - especially CHANGELOG.txt as that includes the exact version of Drupal you are running and could therefore have security implications.

@@ -7,6 +7,8 @@ tags:
   - modules
   - patches
 use: [posts]
+redirect:
+    - blog/create-apply-patches/
 ---
 {% block excerpt %}
 Earlier this year, I posted a solution to [an issue](http://drupal.org/node/753898) on the Drupal.org issue queue. Originally, I just posted the code back onto the issue, but have now created a patch that can easily be applied to any Drupal 6 installation. Here is a run-through of the process of creating and applying a patch. In this case, I made changes to the `user_pass_validate()` function that's found within `modules/user/user.pages.inc`.

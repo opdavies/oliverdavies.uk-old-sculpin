@@ -8,6 +8,8 @@ tags:
   - zen
   - zenophile
 use: [posts]
+redirect:
+    - blog/zenophile/
 ---
 If you use the [Zen](http://drupal.org/project/zen) theme, then you should also be using the [Zenophile](http://drupal.org/project/zenophile) module!
 

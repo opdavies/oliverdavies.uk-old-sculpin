@@ -5,6 +5,8 @@ slug: reflections-speaking-unifieddiff
 tags:
   - talks
 use: [posts]
+redirect:
+    - blog/reflections-speaking-unifieddiff/
 ---
 {% block excerpt %}
 Yesterday evening I went along and spoke at the [UnifiedDiff meetup](http://www.unifieddiff.co.uk) in Cardiff, having offered previously to do a presentation providing an introduction to Drupal.

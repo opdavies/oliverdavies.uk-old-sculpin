@@ -8,6 +8,8 @@ tags:
   - sql
   - sequel-pro
 use: [posts]
+redirect:
+    - blog/create-better-photo-gallery-drupal-part-2/
 ---
 At the end of my last post, I'd finished creating the first part of  the new photo gallery, but I wanted to change the dates of the published  photos to reflect the ones on the client's original website.
 

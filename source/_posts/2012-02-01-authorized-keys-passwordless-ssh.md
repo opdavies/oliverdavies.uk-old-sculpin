@@ -5,6 +5,8 @@ tags:
   - linux
   - ssh
 use: [posts]
+redirect:
+    - blog/authorized-keys-passwordless-ssh/
 ---
 If you're accessing Linux servers or automating tasks between servers, rather than having to enter your user password every time, you can also use SSH public key authentication. This is a simple process that involves creating a local key and storing it within the *authorized_keys* file on the remote server.
 

@@ -4,6 +4,8 @@ tags:
   - drupal-planet
   - imagefield-import
 use: [posts]
+redirect:
+    - blog/imagefield-import-archive/
 ---
 I've finally uploaded my first module onto Drupal.org!
 

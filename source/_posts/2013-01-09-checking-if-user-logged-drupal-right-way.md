@@ -9,6 +9,8 @@ tags:
   - drupal-planet
   - php
 use: [posts]
+redirect:
+    - blog/quickest-way-install-sublime-text-2-ubuntu/
 ---
 {% block excerpt %}
 I see this regularly when working on Drupal sites when someone wants to check whether the current user is logged in to Drupal (authenticated) or not (anonymous).

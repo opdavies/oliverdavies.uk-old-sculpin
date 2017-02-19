@@ -6,6 +6,8 @@ tags:
   - drupal-6
   - typekit
 use: [posts]
+redirect:
+    - blog/typekit-fonts/
 ---
 To begin with, you will need to [register for a TypeKit account](https://typekit.com/plans) - there is a free version if you just want to try it out.
 

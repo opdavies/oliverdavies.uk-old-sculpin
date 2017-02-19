@@ -8,6 +8,8 @@ tags:
 meta:
     description: How to programmatically load, render and embed an entityform in Drupal 7.
 use: [posts]
+redirect:
+    - blog/entityform/
 ---
 {% block excerpt %}
 I recently had my first experience using the [Entityform module](https://www.drupal.org/project/entityform) in a project. It was quite easy to configure with different form types, but then I needed to embed the form into an overlay. I was expecting to use the `drupal_get_form()` function and render it, but this didn’t work.

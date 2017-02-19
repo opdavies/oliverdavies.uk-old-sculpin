@@ -7,6 +7,8 @@ tags:
   - pantheon
   - settings.php
 use: [posts]
+redirect:
+    - blog/pantheon-settings-files/
 ---
 {% block excerpt %}
 I was recently doing some work on a site hosted on [Pantheon](http://getpantheon.com) and came across an issue, for which part of the suggested fix was to ensure that the `$base_url` variable was explicitly defined within settings.php (this is also best practice on all Drupal sites).

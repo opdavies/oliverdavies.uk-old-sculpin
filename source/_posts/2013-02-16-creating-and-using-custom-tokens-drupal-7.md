@@ -7,6 +7,8 @@ tags:
   - drupal-7
   - tokens
 use: [posts]
+redirect:
+    - blog/quickest-way-install-sublime-text-2-ubuntu/
 ---
 {% block excerpt %}
 This post outlines the steps required to create your own custom tokens in Drupal.
