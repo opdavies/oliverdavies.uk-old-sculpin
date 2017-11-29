@@ -8,6 +8,8 @@ draft: true
 
 ## Functional Tests
 
+Here is the original test class:
+
 ```language-php
 namespace Drupal\Tests\tdd_dublin\Functional;
 
@@ -49,6 +51,8 @@ class PageListTest extends BrowserTestBase {
 }
 ```
 
+These pass, but take 1.74 minutes to run.
+
 ```language-plain
 docker@cli:/var/www$ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests/src
 PHPUnit 4.8.36 by Sebastian Bergmann and contributors.
@@ -63,7 +67,7 @@ OK (3 tests, 6 assertions)
 
 ## Kernel Test
 
-`tests/src/Kernel/PageListTest.php`.
+Add a new class at `tests/src/Kernel/PageListTest.php` and extend the `Drupal\KernelTests\KernelTestBase` base class.
 
 ```language-php
 <?php
@@ -78,7 +82,8 @@ class PageListTest extends KernelTestBase {
 
 ```language-php
 public function testOnlyPublishedPagesAreShown() {
-  $nids = array_column(views_get_view_result('pages'), 'nid');
+  $result = views_get_view_result('pages');
+  $nids = array_column($result, 'nid');
 
   $this->assertEquals([1], $nids);
 }
