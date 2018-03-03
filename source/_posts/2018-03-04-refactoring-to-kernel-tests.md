@@ -7,13 +7,13 @@ tags:
     - testing
     - tdd
     - phpunit
-use:
-    - posts
 draft: true
 ---
+{% block excerpt %}
 Following my talk at DrupalCamp Dublin and my [previous post][1], I've made some changes to the tests that I wrote and moved them from functional/web tests to the new kernel test type that is available in Drupal 8.
+{% endblock %}
 
-<!-- split -->
+{% block content %}
 Why? Functional tests are slow as a whole Drupal site is being installed in the background and a browser is loading pages and 
 
 Having started writing tests in Drupal 7 where only two types of tests were available unit and web (functional) - initially writing the tests as functional ones was the natural choice though I intended to revisit them and refactor them where possible.
@@ -336,5 +336,6 @@ Time: 8.5 seconds, Memory: 6.00MB
 
 OK (1 test, 4 assertions)
 ```
+{% endblock %}
 
 [1]: {{site.url}}/blog/2017/11/07/writing-drupal-module-test-driven-development-tdd
