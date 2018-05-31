@@ -1,5 +1,5 @@
 ---
-title: Test Driven Drupal part 2 - Switching from Functional to Kernel Tests
+title: 'Test Driven Drupal Part 2 - Switching from Functional to Kernel Tests'
 date: '2019-01-01'
 slug: tdd-test-driven-drupal-2-kernel-tests
 tags:
@@ -11,8 +11,19 @@ tags:
 use:
     - posts
 draft: true
+summary: |
 ---
+{% block excerpt %}
+Last year at DrupalCamps in London and Dublin I [gave a talk][0] about automated testing with Drupal.
+In that talk, I demonstrated how to build a new module for Drupal 8 with automated tests, using a test-driven approach.
 
+At the time, the tests included within the module were all functional tests.
+Since DrupalCamp Dublin, I’ve refactored most of the tests to use the new Kernel integration tests that are available in Drupal 8.
+
+This post outlines the steps that I took to do the refactoring.
+{% endblock %}
+
+{% block content %}
 ## Functional Tests
 
 Here is the original test class:
@@ -58,13 +69,11 @@ class PageListTest extends BrowserTestBase {
 }
 ```
 
-These pass, but take 1.74 minutes to run.
-
 ```language-plain
-docker@cli:/var/www$ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests/src
+$ ./vendor/bin/phpunit -c core modules/tdd_dublin
 PHPUnit 4.8.36 by Sebastian Bergmann and contributors.
 
-Testing modules/custom/tdd_dublin/tests/src
+Testing modules/tdd_dublin
 ...
 
 Time: 1.74 minutes, Memory: 6.00MB
@@ -247,7 +256,7 @@ protected function setUp() {
 ```
 
 ```
-Testing modules/custom/tdd_dublin/tests/src/Kernel
+Testing modules/tdd_dublin/Kernel
 .
 
 Time: 8.9 seconds, Memory: 6.00MB
@@ -300,10 +309,13 @@ public function testResultsAreOrderedAlphabetically() {
 ```
 
 ```language-plain
-Testing modules/custom/tdd_dublin/tests/src/Kernel
+Testing modules/tdd_dublin/Kernel
 .
 
 Time: 8.5 seconds, Memory: 6.00MB
 
 OK (1 test, 4 assertions)
 ```
+{% endblock %}
+
+[0]: /talks/tdd-test-driven-drupal
