@@ -1,8 +1,15 @@
 ---
 title: Test Driven Drupal part 2 - Switching from Functional to Kernel Tests
+date: '2019-01-01'
 slug: tdd-test-driven-drupal-2-kernel-tests
-tags: [drupal, drupal-8, testing, tdd, phpunit]
-use: [posts]
+tags:
+    - drupal
+    - drupal-8
+    - phpunit
+    - tdd
+    - testing
+use:
+    - posts
 draft: true
 ---
 
