@@ -2,12 +2,17 @@
   @apply leading-normal;
 
   h2,
-  h3 {
-    @apply text-black mb-3
+  h3,
+  h4 {
+    @apply text-black font-bold mb-3
   }
 
   h2 {
-    @apply mt-6 mb-2
+    @apply mt-8 mb-3
+  }
+
+  h3 {
+    @apply text-lg mt-8
   }
 
   p,
