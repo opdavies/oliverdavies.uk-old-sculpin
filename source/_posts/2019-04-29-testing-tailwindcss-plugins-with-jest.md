@@ -12,7 +12,7 @@ promoted: true
 **Note:** The content of this post is based on tests seen in Adam Wathan’s ["Working on Tailwind 1.0" video][working-on-tailwind-video], the Jest documentation website, and existing tests for other Tailwind plugins that I’ve used such as [Tailwind CSS Interaction Variants][tailwindcss-interaction-variants].
 </div>
 
-## Description
+## Preface
 
 In Tailwind 0.x, there was a `list-reset` utility that reset the list style and padding on a HTML list, though it was removed prior to 1.0 and moved into Tailwind’s base styles and applied by default.
 
