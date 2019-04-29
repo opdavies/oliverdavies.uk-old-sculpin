@@ -16,7 +16,7 @@ promoted: true
 
 In Tailwind 0.x, there was a `list-reset` utility that reset the list style and padding on a HTML list, though it was removed prior to 1.0 and moved into Tailwind’s base styles and applied by default.
 
-However, on a few projects I use Tailwind in addition to other CSS, either custom styling or a prior CSS framework, and don’t use `@tailwind base` so don’t get the base styles.
+However, on a few projects I use Tailwind in addition to other CSS, either custom styling or a prior CSS framework, and don’t use `@tailwind base` (formerly `@tailwind preflight`) so don’t get the base styles.
 
 Whilst I could re-create this by replacing it with two other classes (`list-none` and `p-0`), I decided to write [my own Tailwind CSS plugin][repo] to re-add the `list-reset` class. This way I could keep backwards compatibility in my projects and only need to add one class in other future instances.
 
