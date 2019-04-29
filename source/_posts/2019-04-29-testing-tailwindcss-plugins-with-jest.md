@@ -16,7 +16,7 @@ promoted: true
 
 In Tailwind 0.x, there was a `list-reset` utility that reset the list style and padding on a HTML list, though it was removed prior to 1.0 and moved into Tailwind’s base styles and applied by default.
 
-However, on a few projects I use Tailwind in addition to other CSS, either custom styling or a prior CSS framework, and don’t use `@tailwind base` (formerly `@tailwind preflight`) so don’t get the base styles.
+However, on a few projects I use Tailwind in addition to either existing custom styling or another CSS framework, and don’t use `@tailwind base` (formerly `@tailwind preflight`) so don’t get the base styles.
 
 Whilst I could re-create this by replacing it with two other classes (`list-none` and `p-0`), I decided to write [my own Tailwind CSS plugin][repo] to re-add the `list-reset` class. This way I could keep backwards compatibility in my projects and only need to add one class in other future instances.
 
@@ -38,7 +38,7 @@ This could be done with `yarn add` or `npm install`.
 
 ## Writing the first test
 
-I’ve added the tests within a new file within the plugin directory called `test.js`. This file is automatically loaded by Jest based on it’s [testRegex setting][jest-testregex-setting].
+In this plugin, the tests are going to be added into a new file called `test.js`. This file is automatically loaded by Jest based on it’s [testRegex setting][jest-testregex-setting].
 
 This is the format for writing test methods:
 
@@ -48,7 +48,7 @@ test('a description of the test', () => {
 })
 ```
 
-The first test for this plugin is to ensure that the correct CSS is generated from the plugin using no options.
+The first test is to ensure that the correct CSS is generated from the plugin using no options.
 
 We do this by generating the plugin’s CSS, and asserting that it matches the expected CSS within the test.
 
@@ -152,7 +152,7 @@ Without it, you’ll get an error message like _"TypeError: expect(...).toMatchC
 
 ## The next test: testing variants
 
-To test variants we can pass through the required variant names within as options to `generatePluginCss`.
+To test variants we can specify the required variant names within as options to `generatePluginCss`.
 
 For example, this is how to enable `hover` and `focus` variants.
 
@@ -187,14 +187,16 @@ test('it generates the list reset class with variants', () => {
 
 ## Running tests locally
 
-With jest included as a dependency, we can update the `test` script within `package.json` to execute it rather than returning a stub message.
+Now that we have tests, we need to be able to run them.
+
+With Jest included as a dependency, we can update the `test` script within `package.json` to execute it rather than returning a stub message.
 
 ```diff
 - "test": "echo \"Error: no test specified\" && exit 1"
 + "test": "jest"
 ```
 
-This means that as well as running the `jest` command to run the tests, we can also run `npm test` or `yarn test`.
+This means that as well as running the `jest` command directly to run the tests, we can also run `npm test` or `yarn test`.
 
 After running the tests, Jest will display a summary of the results:
 
@@ -202,9 +204,9 @@ After running the tests, Jest will display a summary of the results:
 
 ## Running tests automatically with Travis CI
 
-As well as running the tests locally, they can also be run automatically via services like [Travis CI][travis] each time a new pull request is submitted and each time a new commit as pushed.
+As well as running the tests locally, they can also be run automatically via services like [Travis CI][travis] when a new pull request is submitted or each time new commits are pushed.
 
-This is done by adding a file called `.travis-ci.yml` to the Git repository, like this one which is based on the [JavaScript and Node.js example][travis-nodejs-example]:
+This is done by adding a  `.travis-ci.yml` file to the repository, like this one which is based on the [JavaScript and Node.js example][travis-nodejs-example]:
 
 ```yml
 language: node_js
