@@ -7,7 +7,6 @@ tags:
     - tailwindcss
     - testing
 promoted: true
-draft: true
 ---
 <div class="note" markdown="1">
 **Note:** The content of this post is based on tests seen in Adam Wathan’s ["Working on Tailwind 1.0" video][working-on-tailwind-video], the Jest documentation website, and existing tests for other Tailwind plugins that I’ve used such as [Tailwind CSS Interaction Variants][tailwindcss-interaction-variants].
