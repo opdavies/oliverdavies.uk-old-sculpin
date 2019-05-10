@@ -1,5 +1,5 @@
-let defaultConfig = require('tailwindcss/defaultConfig')
-let defaultTheme = require('tailwindcss/defaultTheme')
+const { variants } = require('tailwindcss/defaultConfig')
+const { fontFamily, spacing } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
@@ -8,7 +8,7 @@ module.exports = {
         inherit: 'inherit',
       },
       fontFamily: {
-        mono: ['Roboto Mono', ...defaultTheme.fontFamily.mono],
+        mono: ['Roboto Mono', ...fontFamily.mono],
       },
       spacing: {
         '2px': '2px',
@@ -19,13 +19,13 @@ module.exports = {
     }
   },
   plugins: [
-    require('tailwindcss-spaced-items')({ values: defaultTheme.spacing }),
+    require('tailwindcss-spaced-items')({ values: spacing }),
     require('tailwindcss-visuallyhidden')(),
     require('tailwindcss-skip-link')(),
     require('tailwindcss-vuejs')()
   ],
   variants: {
-    borderStyle: [...defaultConfig.variants.borderStyle, 'hover', 'focus'],
-    borderWidth: [...defaultConfig.variants.borderStyle, 'hover', 'focus']
+    borderStyle: [...variants.borderStyle, 'hover', 'focus'],
+    borderWidth: [...variants.borderStyle, 'hover', 'focus']
   }
 }
