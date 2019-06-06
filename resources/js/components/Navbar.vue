@@ -6,7 +6,7 @@
           <div class="text-sm">
             <a
               href="/"
-              class="text-black"
+              class="font-semibold text-white"
               tabindex="-1"
             >
               {{ siteTitle }}
@@ -21,27 +21,22 @@
             aria-label="Toggle main menu"
             @click="hidden = !hidden"
           >
-            <svg
-              class="fill-current text-gray-600 w-6 h-6"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z" />
-            </svg>
+            <svg class="fill-current text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z"/></svg>
           </button>
         </div>
       </div>
 
       <nav
-        class="w-full -mx-4 mt-px md:mt-0 md:mx-0 block md:flex md:flex-wrap md:flex-1 md:justify-end bg-white absolute md:relative border-b md:border-b-0"
-        :class="{hidden: hidden}"
+        class="w-full py-4 -mx-4 mt-2px md:mt-0 md:mx-0 block md:flex md:flex-wrap md:flex-1 md:justify-end bg-blue-700 md:bg-blue-500 absolute md:relative border-b md:border-b-0"
+        style="margin-top: 3px"
+        :class="{ hidden: hidden }"
         role="navigation"
       >
         <a
           v-for="(item, index) in items"
           :key="index"
-          class="block text-black no-underline focus:outline-none p-4 border-l-3 md:border-l-0 md:border-b-3 border-transparent hover:border-gray-300 focus:border-gray-300 focus:bg-white md:ml-4 md:mr-0 md:p-0 hover:no-underline text-sm -mb-px"
-          :class="{'border-blue-600 hover:border-blue-600': isActive(item)}"
+          class="block text-white no-underline focus:outline-none py-2 md:py-1 px-2 md:px-2 mx-4 md:mx-2 mt-1 md:mt-0 rounded md:mr-0 hover:underline text-sm -mb-px"
+          :class="{'bg-blue-500 md:bg-blue-700 hover:border-blue-600 hover:no-underline cursor-default': isActive(item)}"
           :href="item.href"
         >
           <span class="flex items-center h-full">{{ item.title }}</span>
