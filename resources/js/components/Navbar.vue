@@ -35,7 +35,7 @@
         <a
           v-for="(item, index) in items"
           :key="index"
-          class="block text-white no-underline focus:outline-none py-2 md:py-1 px-2 md:px-2 mx-4 md:mx-2 mt-1 md:mt-0 rounded md:mr-0 hover:underline text-sm -mb-px"
+          class="block text-white no-underline focus:outline-none py-3 md:py-2 md:py-1 px-4 md:px-2 mx-4 md:mx-2 mt-1 md:mt-0 rounded md:mr-0 hover:underline text-sm -mb-px"
           :class="{'bg-blue-500 md:bg-blue-700 hover:border-blue-600 hover:no-underline cursor-default': isActive(item)}"
           :href="item.href"
         >
