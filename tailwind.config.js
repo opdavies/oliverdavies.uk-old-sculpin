@@ -21,6 +21,9 @@ module.exports = {
       }
     }
   },
+  corePlugins: {
+    container: false
+  },
   plugins: [
     require('tailwindcss-spaced-items')({ values: spacing }),
     require('tailwindcss-visuallyhidden')(),

@@ -3,7 +3,7 @@
 {% block body %}
     {% include 'layout/navbar' %}
 
-    <div class="container mt-24 px-4 mx-auto flex flex-col flex-1">
+    <div class="container mt-24 flex flex-col flex-1">
         <main id="main-content" class="flex-1 wrap {{ page.layout == 'front' ? 'is-wide' : '' }}">
             {% block page_title_wrapper %}
                 <h1 class="leading-tight mb-4">
