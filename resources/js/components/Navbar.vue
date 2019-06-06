@@ -2,7 +2,7 @@
   <div>
     <div class="md:flex">
       <div class="w-full md:w-1/3 lg:w-1/4 flex items-center">
-        <div class="w-3/4 py-5">
+        <div class="w-3/4 py-6">
           <div class="text-sm">
             <a
               href="/"
