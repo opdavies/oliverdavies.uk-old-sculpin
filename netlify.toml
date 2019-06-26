@@ -1,9 +1,8 @@
 [build]
 command = """
-composer lint -- --dry-run
-yarn lint --fix-dry-run
 composer test
 composer prod
+yarn lint --fix-dry-run
 yarn prod
 cp -R source/dist output_prod
 """
