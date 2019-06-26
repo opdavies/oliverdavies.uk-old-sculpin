@@ -15,14 +15,15 @@
     "scripts": {
         "dev": "composer run-script generate",
         "generate": "sculpin generate --clean --no-interaction",
-        "lint": "php-cs-fixer fix",
         "prod": "composer run-script generate -- --env prod",
         "watch": "composer run-script --timeout=0 generate -- --server --watch",
         "test-phpunit": "phpunit",
         "test-phpstan": "phpstan analyze",
+        "test-phpcs": "php-cs-fixer fix --dry-run",
         "test": [
             "@test-phpunit",
-            "@test-phpstan"
+            "@test-phpstan",
+            "@test-phpcs"
         ]
     },
     "require": {
