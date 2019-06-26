@@ -11,7 +11,7 @@ use Twig\TwigFunction;
 class TalksExtension extends AbstractExtension
 {
     /**
-     * @var string The current date.
+     * @var int The current date.
      */
     private $today;
 

@@ -18,7 +18,12 @@
         "lint": "php-cs-fixer fix",
         "prod": "composer run-script generate -- --env prod",
         "watch": "composer run-script --timeout=0 generate -- --server --watch",
-        "test": "phpunit"
+        "test-phpunit": "phpunit",
+        "test-phpstan": "phpstan analyze",
+        "test": [
+            "@test-phpunit",
+            "@test-phpstan"
+        ]
     },
     "require": {
         "php": "^7.2",
@@ -27,12 +32,14 @@
         "josephlavin/tap": "^1.0",
         "opdavies/sculpin-gist-embed-bundle": "^0.1",
         "opdavies/sculpin-twig-markdown-bundle": "^0.1",
+        "phpstan/phpstan": "^0.11.8",
         "sculpin/sculpin": "^3.0",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0",
         "wikimedia/composer-merge-plugin": "^1.4"
     },
     "require-dev": {
         "opdavies/sculpin-content-generator-bundle": "@stable",
+        "phpstan/phpstan-deprecation-rules": "^0.11.2",
         "phpunit/phpunit": "^5.7"
     },
     "config": {
