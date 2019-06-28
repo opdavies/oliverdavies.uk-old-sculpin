@@ -6,6 +6,8 @@ podcasts:
         name: How to Code Well
     talking_drupal:
         name: Talking Drupal
+    thatpodcast:
+        name: That Podcast
 episodes:
     - title: 'Episode #175 - Automated Testing'
       description: I joined the Talking Drupal team to discuss automated testing.
@@ -28,6 +30,13 @@ episodes:
       url: https://howtocodewell.fm/episode/15-whats-new-in-drupal-8-plus-oliver-davies-interview
       audio: true
       video: true
+
+    - title: 'Episode 60 - The One Where We Talk Twig, Drupal, and Sculpin'
+      description: I joined Beau and Dave to talk about various topics including Drupal, the Sculpin static site generator, Twig, Tailwind CSS and Symfony.
+      podcast: thatpodcast
+      date: 2019-07-01
+      url: https://thatpodcast.io/episodes/episode-60-the-one-where-we-talk-twig-drupal-and-sculpin-with-oliver-davies
+      audio: true
 ---
 {% macro episodeTitle(podcast, episode) -%}
     {{ podcast.name }}: {{ episode.title }}
