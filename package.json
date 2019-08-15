@@ -28,7 +28,7 @@
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.1.2",
     "sugarss": "^2.0.0",
-    "tailwindcss": "^1.1.0",
+    "tailwindcss": "^1.1.2",
     "tailwindcss-skip-link": "^1.0.0",
     "tailwindcss-spaced-items": "https://github.com/n1kk/tailwindcss-spaced-items#master",
     "tailwindcss-visuallyhidden": "^1.0.1",
