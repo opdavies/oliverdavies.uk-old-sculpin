@@ -11,5 +11,3 @@ Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s [live blogging o
 ## Keynote
 
 Coming tomorrow.
-
-test
