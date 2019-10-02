@@ -21,7 +21,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "cross-env": "^5.1.5",
+    "cross-env": "^6.0.2",
     "highlightjs": "^9.10.0",
     "laravel-mix": "^4.1.2",
     "laravel-mix-purgecss": "^4.1.0",
