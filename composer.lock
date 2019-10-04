@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f61ac649b31d753a2970241aec29fad",
+    "content-hash": "3922e2836fd65342172d34ac86fe0606",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -4474,16 +4474,16 @@
         },
         {
             "name": "tightenco/collect",
-            "version": "v5.8.35",
+            "version": "v6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tightenco/collect.git",
-                "reference": "c93a7039e6207ad533a09109838fe80933fcc72c"
+                "reference": "8f56fad98222f8fe8c008cbae449f687e331444a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/collect/zipball/c93a7039e6207ad533a09109838fe80933fcc72c",
-                "reference": "c93a7039e6207ad533a09109838fe80933fcc72c",
+                "url": "https://api.github.com/repos/tightenco/collect/zipball/8f56fad98222f8fe8c008cbae449f687e331444a",
+                "reference": "8f56fad98222f8fe8c008cbae449f687e331444a",
                 "shasum": ""
             },
             "require": {
@@ -4492,7 +4492,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "nesbot/carbon": "^1.26.3",
+                "nesbot/carbon": "^2.23.0",
                 "phpunit/phpunit": "^7.0"
             },
             "type": "library",
@@ -4520,7 +4520,7 @@
                 "collection",
                 "laravel"
             ],
-            "time": "2019-09-17T18:57:01+00:00"
+            "time": "2019-10-02T19:55:13+00:00"
         },
         {
             "name": "tsphethean/sculpin-related-posts-bundle",
@@ -4667,19 +4667,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "role": "Lead Developer",
                     "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org"
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "role": "Project Founder",
-                    "email": "armin.ronacher@active-4.com"
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
                 },
                 {
                     "name": "Twig Team",
-                    "role": "Contributors",
-                    "homepage": "https://twig.symfony.com/contributors"
+                    "homepage": "https://twig.symfony.com/contributors",
+                    "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
