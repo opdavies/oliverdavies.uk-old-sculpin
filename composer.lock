@@ -4440,16 +4440,16 @@
         },
         {
             "name": "tightenco/collect",
-            "version": "v6.3.0",
+            "version": "v6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tightenco/collect.git",
-                "reference": "7f3f798cb71aa509f5d6e0d1b8f5f4ae0e510869"
+                "reference": "48b88a0e488fba617f077e0f89bae286b35d9eef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/collect/zipball/7f3f798cb71aa509f5d6e0d1b8f5f4ae0e510869",
-                "reference": "7f3f798cb71aa509f5d6e0d1b8f5f4ae0e510869",
+                "url": "https://api.github.com/repos/tightenco/collect/zipball/48b88a0e488fba617f077e0f89bae286b35d9eef",
+                "reference": "48b88a0e488fba617f077e0f89bae286b35d9eef",
                 "shasum": ""
             },
             "require": {
@@ -4478,7 +4478,7 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
+                    "email": "taylorotwell@gmail.com"
                 }
             ],
             "description": "Collect - Illuminate Collections as a separate package.",
@@ -4486,7 +4486,7 @@
                 "collection",
                 "laravel"
             ],
-            "time": "2019-10-05T20:15:22+00:00"
+            "time": "2019-10-23T14:47:45+00:00"
         },
         {
             "name": "twig/extensions",
