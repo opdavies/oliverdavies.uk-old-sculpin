@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@symfony/webpack-encore": "^0.28.0",
-    "highlightjs": "^9.12.0",
+    "highlightjs": "^9.16.2",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
     "tailwindcss": "^1.1.3",
