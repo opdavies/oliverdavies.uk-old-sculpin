@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  app:
+    build:
+      context: tools/docker
+    volumes:
+      - .:/app
+      - ./tools/docker/apache2/conf/sites-available/000-default.conf:/etc/apache2/sites-available/000-default.conf
+    environment:
+      APACHE_DOCUMENT_ROOT: /app/output_dev
+    ports:
+      - 80:80
+
+  node:
+    image: node:slim
+    volumes:
+      - .:/app
+    working_dir: /app
