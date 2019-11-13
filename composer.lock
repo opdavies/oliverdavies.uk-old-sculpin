@@ -4305,16 +4305,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.3.5",
+            "version": "v4.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "bde8957fc415fdc6964f33916a3755737744ff05"
+                "reference": "ea4940845535c85ff5c505e13b3205b0076d07bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/bde8957fc415fdc6964f33916a3755737744ff05",
-                "reference": "bde8957fc415fdc6964f33916a3755737744ff05",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/ea4940845535c85ff5c505e13b3205b0076d07bf",
+                "reference": "ea4940845535c85ff5c505e13b3205b0076d07bf",
                 "shasum": ""
             },
             "require": {
@@ -4377,7 +4377,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2019-10-04T19:48:13+00:00"
+            "time": "2019-10-13T12:02:04+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -4440,16 +4440,16 @@
         },
         {
             "name": "tightenco/collect",
-            "version": "v6.4.1",
+            "version": "v6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tightenco/collect.git",
-                "reference": "9796fcd7ad3286dda60d0cf5120afbff8e3b9db6"
+                "reference": "afe2597c5ca6344dc47905743a0b73220f6cca8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/collect/zipball/9796fcd7ad3286dda60d0cf5120afbff8e3b9db6",
-                "reference": "9796fcd7ad3286dda60d0cf5120afbff8e3b9db6",
+                "url": "https://api.github.com/repos/tightenco/collect/zipball/afe2597c5ca6344dc47905743a0b73220f6cca8a",
+                "reference": "afe2597c5ca6344dc47905743a0b73220f6cca8a",
                 "shasum": ""
             },
             "require": {
@@ -4486,7 +4486,7 @@
                 "collection",
                 "laravel"
             ],
-            "time": "2019-10-23T21:04:40+00:00"
+            "time": "2019-11-13T04:13:45+00:00"
         },
         {
             "name": "twig/extensions",
