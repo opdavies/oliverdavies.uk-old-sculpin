@@ -1,0 +1,63 @@
+---
+permalink: /rtjj-adults.ics
+classes:
+    Monday:
+        - { times: { start: 11:00 }, description: 'Jiu Jitsu' }
+        - { times: { start: 12:00 }, description: 'Live training' }
+        - { times: { start: 13:00 }, description: 'Strength & conditioning' }
+        - { times: { start: 16:00 }, description: 'Open Mat' }
+        - { times: { start: 18:00 }, description: 'Jiu Jitsu' }
+        - { times: { start: 19:00 }, description: 'Live training' }
+        - { times: { start: 20:00 }, description: 'Fundamentals' }
+        - { times: { start: 20:00 }, description: 'MMA' }
+---
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rob Taylor Jiu-jitsu - Adult classes
+X-WR-TIMEZONE:Europe/London
+
+BEGIN:VTIMEZONE
+TZID:Europe/London
+X-LIC-LOCATION:Europe/London
+
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+{% for day, classes in page.classes %}
+{% for class in classes %}
+BEGIN:VEVENT
+DTSTART:20181207T220000Z
+DTEND:20181208T080000Z
+RRULE:FREQ=WEEKLY;BYDAY={{ day|upper[0:2] }}
+DTSTAMP:20200112T170949Z
+CREATED:20181201T113245Z
+DESCRIPTION:
+LAST-MODIFIED:20181201T135245Z
+LOCATION:Rob Taylor Jiu-Jitsu Academy\, Unit 3a\, Gulf Works\, Penarth Rd\,
+  Cardiff CF11 8TY\, UK
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:{{ class.description }}
+TRANSP:OPAQUE
+END:VEVENT
+{% endfor %}
+{% endfor %}
+
+END:VCALENDAR
