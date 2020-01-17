@@ -923,9 +923,9 @@ alphanum-sort@^1.0.0:
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
 alpinejs@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-1.8.2.tgz#3a7922fa22277ffba118700158cba455ccc70fa7"
-  integrity sha512-GlCJWmD2dhKFxTmMBhTf7z/NTTOaPJRmsGlpy9ebItucd24t1WoFF0nqsGi5vrVBytIKDFa/taVVKN7nsjXu1w==
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-1.9.2.tgz#9bb99a85fa691ef8daddb689a695c70557ca6bdb"
+  integrity sha512-0fFSVPwtI+FlVUgpK2E5/ANjs7mIWp9BSCH4e9vZfQGlHBbupGlkGs4z14SwY5N6uubV7O02qMA+lN6ptLjYaw==
 
 ansi-colors@^3.0.0:
   version "3.2.4"
