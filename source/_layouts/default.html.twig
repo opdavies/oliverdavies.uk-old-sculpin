@@ -5,6 +5,15 @@
 
     <div class="mt-10 container">
         <main id="main-content" class="flex-1 wrap {{ page.layout == 'front' ? 'is-wide' : '' }}">
+
+            {% if site.messages %}
+                {% for message in site.messages if page.url matches message.paths[0] %}
+                    <div class="mb-8 px-5 py-3 bg-yellow-100 border-b-2 border-yellow-300">
+                        {{ message.text|markdown }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+
             {% block page_title_wrapper %}
                 <h1 class="leading-tight mb-4">
                     {% block page_title %}{{ page.title }}{% endblock %}

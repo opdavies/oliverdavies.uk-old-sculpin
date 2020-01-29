@@ -20,3 +20,20 @@ imports:
     - data/links.yml
     - data/menus.yml
     - data/work.yml
+
+messages:
+    - enabled: true
+      start: 2020-02-01
+      end: 2020-03-16
+      text: |
+          Oliver is giving a workshop, 'Automated Testing and Test Driven Development with Drupal 8' next month at [DrupalCamp London](https://drupalcamp.london). Find out more!
+      paths:
+          - /^\/(articles|talks)\/.+$/
+
+    - enabled: false
+      start: 2020-03-01
+      end: 2020-03-16
+      text: |
+          Oliver is giving a workshop, 'Automated Testing and Test Driven Development with Drupal 8' this month at [DrupalCamp London](https://drupalcamp.london). Find out more!
+      paths:
+          - /^\/(articles|talks)\/.+$/
