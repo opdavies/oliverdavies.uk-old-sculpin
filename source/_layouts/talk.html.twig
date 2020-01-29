@@ -10,8 +10,17 @@
 
 {% block content_wrapper %}
     <div class="spaced-y-8">
-        <div class="markup spaced-y-4">
+        <div class="markup spaced-y-6">
             {% block content %}{% endblock %}
+            
+            <section>
+                <h2 class="sr-only">Give me feedback</h2>
+
+                <p>
+                    <strong>Want to give me feedback for this talk?</strong>
+                    I’m <a href="{{ site.twitter.url }}" title="Leave me feedback on Twitter">@{{ site.twitter.user }}</a> on Twitter or <a href="/contact">send me an email</a>.
+                </p>
+            </section>
         </div>
 
         {% include 'talk/slides' %}
