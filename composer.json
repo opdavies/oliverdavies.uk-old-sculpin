@@ -38,6 +38,7 @@
         "opdavies/sculpin-twig-markdown-bundle": "^0.1",
         "phpstan/phpstan": "^0.11.8",
         "sculpin/sculpin": "^3.0",
+        "spatie/string": "^2.2",
         "tightenco/collect": "^6.1",
         "wikimedia/composer-merge-plugin": "^1.4"
     },
