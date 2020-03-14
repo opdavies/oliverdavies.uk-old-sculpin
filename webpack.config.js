@@ -12,12 +12,13 @@ Encore
     .configureLoaderRule('css', loaderRule => {
         loaderRule.test = /\.(css|p(ost)?css)$/
     })
-    .enableSourceMaps(!Encore.isProduction())
 
 if (Encore.isProduction()) {
     Encore
         .enableVersioning()
         .addPlugin(new PurgecssPlugin(purgecssConfig))
+} else {
+    Encore.enableSourceMaps()
 }
 
 module.exports = Encore.getWebpackConfig()
