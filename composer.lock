@@ -4668,7 +4668,7 @@
         },
         {
             "name": "tightenco/collect",
-            "version": "v6.18.3",
+            "version": "v6.18.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tightenco/collect.git",
