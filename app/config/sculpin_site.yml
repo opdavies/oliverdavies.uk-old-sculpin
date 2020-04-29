@@ -19,4 +19,5 @@ imports:
     - data/events.yml
     - data/links.yml
     - data/menus.yml
+    - data/redirects.yml
     - data/work.yml
