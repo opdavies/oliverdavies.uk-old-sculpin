@@ -1,111 +1,148 @@
 .markup {
-  a {
-    @apply underline;
-
-    &:hover {
-      @apply no-underline
+    h1, h2, h3, h4. h5 {
+        margin-bottom: 0;
+        font-weight: 600 !important
     }
 
-    &:focus {
-      @apply p-px -m-px bg-blue-700 text-white outline-none
+    a {
+        text-decoration: underline
     }
-  }
 
-  p {
-    @apply leading-relaxed;
-
-    + p {
-      @apply mt-4
+    a:hover {
+        text-decoration: none
     }
-  }
 
-  ol {
-    @apply list-decimal
-  }
+    a:focus {
+        color: white;
+        background: #0b6cb0;
+        outline: none;
+        padding: 1px;
+        margin: -1px
+    }
 
-  ul {
-    @apply list-disc;
-  }
+    p {
+        @apply leading-relaxed
+    }
 
-  ol,
-  ul {
-    @apply pl-5;
+    p + p {
+        @apply mt-6
+    }
+
+    ul {
+        @apply list-disc pl-6
+    }
 
     li + li {
-      @apply mt-2
+        @apply mt-4
     }
-  }
 
-  p {
-    + blockquote,
-    + ol,
-    + ul,
-    + div[v-pre] {
-      @apply mt-4
+    a {
+        @apply underline;
+
+        &:hover {
+            @apply no-underline
+        }
+
+        &:focus {
+            @apply p-px -m-px bg-blue-700 text-white outline-none
+        }
     }
-  }
 
-  blockquote + * {
-    @apply mt-4
-  }
+    p {
+        @apply leading-relaxed;
 
-  code {
-    @apply -my-px px-1 py-px border border-gray-400 text-sm bg-gray-200
-  }
+        + p {
+            @apply mt-4
+        }
+    }
 
-  pre {
-    @apply border-l-3 border-gray-400 text-sm bg-gray-200;
+    ol {
+        @apply list-decimal
+    }
+
+    ul {
+        @apply list-disc;
+    }
+
+    ol,
+    ul {
+        @apply pl-5;
+
+        li + li {
+            @apply mt-2
+        }
+    }
+
+    p {
+        + blockquote,
+        + ol,
+        + ul,
+        + div[v-pre] {
+            @apply mt-4
+        }
+    }
+
+    blockquote + * {
+        @apply mt-4
+    }
 
     code {
-      @apply p-6 block border-none leading-loose text-sm overflow-x-scroll
-    }
-  }
-
-  * + pre,
-  * + div[v-pre] {
-    @apply my-4
-  }
-
-  img,
-  figure {
-    @apply my-8
-  }
-
-  figure {
-    img {
-      @apply m-0
+        @apply -my-px px-1 py-px border border-gray-400 text-sm bg-gray-200
     }
 
-    figcaption {
-      @apply mt-3
+    pre {
+        @apply border-l-3 border-gray-400 text-sm bg-gray-200;
+
+        code {
+            @apply p-6 block border-none leading-loose text-sm overflow-x-scroll
+        }
     }
-  }
 
-  h2 {
-    @apply leading-tight
-  }
+    * + pre,
+    * + div[v-pre] {
+        @apply my-4
+    }
 
-  * + h2 {
-    @apply mt-8
-  }
+    img,
+    figure {
+        @apply my-8
+    }
 
-  h2 + * {
-    @apply mt-4
-  }
+    figure {
+        img {
+            @apply m-0
+        }
 
-  h3 {
-    @apply text-xl font-bold leading-tight
-  }
+        figcaption {
+            @apply mt-3
+        }
+    }
 
-  * + h3 {
-    @apply mt-6
-  }
+    h2 {
+        @apply leading-tight
+    }
 
-  h3 + * {
-    @apply mt-2
-  }
+    * + h2 {
+        @apply mt-8
+    }
 
-  h2 + h3 {
-    @apply mt-4
-  }
+    h2 + * {
+        @apply mt-4
+    }
+
+    h3 {
+        @apply text-xl font-bold leading-tight
+    }
+
+    * + h3 {
+        @apply mt-6
+    }
+
+    h3 + * {
+        @apply mt-2
+    }
+
+    h2 + h3 {
+        @apply mt-4
+    }
 }
