@@ -13,7 +13,12 @@ use: [posts]
                 "updated": "{{ post.date }}",
                 "path": "{{ post.url|trim('/', 'right') }}",
                 "content": {{ post.blocks.content|json_encode|raw }},
-                "status": "{{ post.draft ? '0' : '1' }}"
+                "status": "{{ post.draft ? '0' : '1' }}",
+                "tags": [
+                    {% for tag in post.tags %}
+                        "{{ tag }}"{% if not loop.last %},{% endif %}
+                    {% endfor %}
+                ]
             }{% if not loop.last %},{% endif %}
         {% endfor %}
     ]
