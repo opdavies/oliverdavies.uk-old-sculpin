@@ -9,6 +9,7 @@ use: [posts]
             {
                 "id": "{{ loop.index }}",
                 "title": {{ post.title|json_encode|raw }},
+                "excerpt": {{ post.excerpt|json_encode|raw }},
                 "created": "{{ post.date }}",
                 "updated": "{{ post.date }}",
                 "path": "{{ post.url|trim('/', 'right') }}",
