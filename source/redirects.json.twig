@@ -1,0 +1,15 @@
+---
+permalink: redirects.json
+---
+
+{
+	"redirects": [
+		{% for i, redirect in site.redirects %}
+			{
+				"id": "{{ i + 1 }}",
+				"from": "{{ redirect.from }}",
+				"to": "{{ redirect.to }}"
+			}{% if not loop.last %},{% endif %}
+		{% endfor %}
+	]
+}

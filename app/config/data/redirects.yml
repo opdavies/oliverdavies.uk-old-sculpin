@@ -1,0 +1,432 @@
+---
+redirects:
+  - from: about
+    to: /
+  - from: articles/2010/04/05/style-drupal-6s-taxonomy-lists-php-css-and-jquery
+    to: /articles/style-drupal-6s-taxonomy-lists-php-css-and-jquery
+  - from: articles/2010/04/28/using-imagecache-and-imagecrop-my-portfolio
+    to: /articles/using-imagecache-and-imagecrop-my-portfolio
+  - from: articles/2010/05/06/conditional-email-addresses-webform
+    to: /articles/conditional-email-addresses-webform
+  - from: articles/2010/05/10/quickly-create-zen-subthemes-using-zenophile
+    to: /articles/quickly-create-zen-subthemes-using-zenophile
+  - from: articles/2010/05/25/create-slideshow-multiple-images-using-fancy-slide
+    to: /articles/create-slideshow-multiple-images-using-fancy-slide
+  - from: articles/2010/05/29/quickly-import-multiples-images-using-imagefieldimport-module
+    to: /articles/quickly-import-multiples-images-using-imagefieldimport-module
+  - from: articles/2010/06/02/improve-jpg-quality-imagecache-and-imageapi
+    to: /articles/improve-jpg-quality-imagecache-and-imageapi
+  - from: articles/2010/06/23/create-block-social-media-icons-using-cck-views-and-nodequeue
+    to: /articles/create-block-social-media-icons-using-cck-views-and-nodequeue
+  - from: articles/2010/06/25/10-useful-drupal-6-modules
+    to: /articles/10-useful-drupal-6-modules
+  - from: articles/2010/06/28/create-flickr-photo-gallery-using-feeds-cck-and-views
+    to: /articles/create-flickr-photo-gallery-using-feeds-cck-and-views
+  - from: articles/2010/07/01/change-content-type-multiple-nodes-using-sql
+    to: /articles/change-content-type-multiple-nodes-using-sql
+  - from: articles/2010/07/02/create-virtual-hosts-mac-os-x-using-virtualhostx
+    to: /articles/create-virtual-hosts-mac-os-x-using-virtualhostx
+  - from: articles/2010/07/07/add-taxonomy-term-multiple-nodes-using-sql
+    to: /articles/add-taxonomy-term-multiple-nodes-using-sql
+  - from: articles/2010/07/12/review-teleport-module
+    to: /articles/review-teleport-module
+  - from: articles/2010/08/10/review-adminhover-module
+    to: /articles/review-adminhover-module
+  - from: articles/2010/08/11/create-better-photo-gallery-drupal-part-1
+    to: /articles/create-better-photo-gallery-drupal-part-1
+  - from: articles/2010/08/17/create-better-photo-gallery-drupal-part-2
+    to: /articles/create-better-photo-gallery-drupal-part-2
+  - from: articles/2010/08/20/review-image-caption-module
+    to: /articles/review-image-caption-module
+  - from: articles/2010/09/26/south-wales-drupal-user-group
+    to: /articles/south-wales-drupal-user-group
+  - from: articles/2010/10/10/create-and-apply-patches
+    to: /articles/create-and-apply-patches
+  - from: articles/2010/10/13/create-better-photo-gallery-drupal-part-3
+    to: /articles/create-better-photo-gallery-drupal-part-3
+  - from: articles/2010/10/22/create-better-photo-gallery-drupal-part-21
+    to: /articles/create-better-photo-gallery-drupal-part-21
+  - from: articles/2010/11/04/use-regular-expressions-search-and-replace-coda-or-textmate
+    to: /articles/use-regular-expressions-search-and-replace-coda-or-textmate
+  - from: articles/2011/02/14/easily-embed-typekit-fonts-your-drupal-website
+    to: /articles/easily-embed-typekit-fonts-your-drupal-website
+  - from: articles/2011/03/15/display-number-facebook-fans-php
+    to: /articles/display-number-facebook-fans-php
+  - from: articles/2011/03/31/proctor-stevenson
+    to: /articles/proctor-stevenson
+  - from: articles/2011/05/20/proctors-hosting-next-drupal-meetup
+    to: /articles/proctors-hosting-next-drupal-meetup
+  - from: articles/2011/05/23/imagefield-import-archive
+    to: /articles/imagefield-import-archive
+  - from: articles/2011/08/28/create-multigroups-drupal-7-using-field-collections
+    to: /articles/create-multigroups-drupal-7-using-field-collections
+  - from: articles/2011/10/19/install-and-configure-subversion-svn-server-ubuntu
+    to: /articles/install-and-configure-subversion-svn-server-ubuntu
+  - from: articles/2012/01/04/site-upgraded-drupal-7
+    to: /articles/site-upgraded-drupal-7
+  - from: articles/2012/02/01/use-authorized-keys-create-passwordless-ssh-connection
+    to: /articles/use-authorized-keys-create-passwordless-ssh-connection
+  - from: articles/2012/04/16/create-omega-subtheme-less-css-preprocessor-using-omega-tools-and-drush
+    to: /articles/create-omega-subtheme-less-css-preprocessor-using-omega-tools-and-drush
+  - from: articles/2012/04/17/installing-nagios-centos
+    to: /articles/installing-nagios-centos
+  - from: articles/2012/04/19/adding-custom-theme-templates-drupal-7
+    to: /articles/adding-custom-theme-templates-drupal-7
+  - from: articles/2012/05/23/add-date-popup-calendar-custom-form
+    to: /articles/add-date-popup-calendar-custom-form
+  - from: articles/2012/05/23/checkout-specific-revision-svn-command-line
+    to: /articles/checkout-specific-revision-svn-command-line
+  - from: articles/2012/05/23/forward-one-domain-another-using-mod-rewrite-and-htaccess
+    to: /articles/forward-one-domain-another-using-mod-rewrite-and-htaccess
+  - from: articles/2012/05/23/prevent-apache-displaying-text-files-within-web-browser
+    to: /articles/prevent-apache-displaying-text-files-within-web-browser
+  - from: articles/2012/05/23/writing-info-file-drupal-7-theme
+    to: /articles/writing-info-file-drupal-7-theme
+  - from: articles/2012/05/24/dividing-drupals-process-and-preprocess-functions-separate-files
+    to: /articles/dividing-drupals-process-and-preprocess-functions-separate-files
+  - from: articles/2012/07/12/my-new-drupal-modules
+    to: /articles/my-new-drupal-modules
+  - from: articles/2012/07/14/install-nomensa-media-player-drupal
+    to: /articles/install-nomensa-media-player-drupal
+  - from: articles/2012/07/27/writing-article-linux-journal
+    to: /articles/writing-article-linux-journal
+  - from: articles/2012/08/18/display-custom-menu-drupal-7-theme-template-file
+    to: /articles/display-custom-menu-drupal-7-theme-template-file
+  - from: articles/2012/09/06/reflections-speaking-unifieddiff
+    to: /articles/reflections-speaking-unifieddiff
+  - from: articles/2012/10/25/my-sublime-text-2-settings
+    to: /articles/my-sublime-text-2-settings
+  - from: articles/2012/11/15/accessible-bristol-site-launched
+    to: /articles/accessible-bristol-site-launched
+  - from: articles/2012/11/17/open-sublime-text-2-mac-os-x-command-line
+    to: /articles/open-sublime-text-2-mac-os-x-command-line
+  - from: articles/2012/12/06/use-sass-and-compass-drupal-7-using-sassy
+    to: /articles/use-sass-and-compass-drupal-7-using-sassy
+  - from: articles/2013/01/09/checking-if-user-logged-drupal-right-way
+    to: /articles/checking-if-user-logged-drupal-right-way
+  - from: articles/2013/02/16/creating-and-using-custom-tokens-drupal-7
+    to: /articles/creating-and-using-custom-tokens-drupal-7
+  - from: articles/2013/03/02/quickest-way-install-sublime-text-2-ubuntu
+    to: /articles/quickest-way-install-sublime-text-2-ubuntu
+  - from: articles/2013/04/20/leaving-nomensa-joining-precedent
+    to: /articles/leaving-nomensa-joining-precedent
+  - from: articles/2013/04/27/display-git-branch-or-tag-names-your-bash-prompt
+    to: /articles/display-git-branch-or-tag-names-your-bash-prompt
+  - from: articles/2013/06/13/some-useful-links-using-simpletest-drupal
+    to: /articles/some-useful-links-using-simpletest-drupal
+  - from: articles/2013/07/17/creating-local-and-staging-sites-drupals-domain-module-enabled
+    to: /articles/creating-local-and-staging-sites-drupals-domain-module-enabled
+  - from: articles/2013/07/26/going-drupalcon
+    to: /articles/going-drupalcon
+  - from: articles/2013/09/06/create-a-zen-sub-theme-using-drush
+    to: /articles/create-a-zen-sub-theme-using-drush
+  - from: articles/2013/11/19/dont-bootstrap-drupal-use-drush
+    to: /articles/dont-bootstrap-drupal-use-drush
+  - from: articles/2013/11/27/useful-vagrant-commands
+    to: /articles/useful-vagrant-commands
+  - from: articles/2013/12/24/quickly-apply-patches-using-git-and-curl-or-wget
+    to: /articles/quickly-apply-patches-using-git-and-curl-or-wget
+  - from: articles/2013/12/31/download-different-versions-drupal-drush
+    to: /articles/download-different-versions-drupal-drush
+  - from: articles/2014/01/15/some-useful-git-aliases
+    to: /articles/some-useful-git-aliases
+  - from: articles/2014/02/09/drupalcamp-london-2014
+    to: /articles/drupalcamp-london-2014
+  - from: articles/2014/03/03/what-git-flow
+    to: /articles/what-git-flow
+  - from: articles/2014/05/03/drupal-association
+    to: /articles/drupal-association
+  - from: articles/2014/05/06/thanks
+    to: /articles/thanks
+  - from: articles/2014/05/21/git-format-patch
+    to: /articles/git-format-patch
+  - from: articles/2014/07/02/drush-make-drupalbristol
+    to: /articles/drush-make-drupalbristol
+  - from: articles/2014/10/06/fix-vagrant-loading-wrong-virtual-machine
+    to: /articles/fix-vagrant-loading-wrong-virtual-machine
+  - from: articles/2014/10/21/updating-features-and-adding-components-using-drush
+    to: /articles/updating-features-and-adding-components-using-drush
+  - from: articles/2014/11/18/include-css-fonts-using-sass-each-loop
+    to: /articles/include-css-fonts-using-sass-each-loop
+  - from: articles/2014/11/20/using-remote-files-when-developing-locally-with-stage-file-proxy-module
+    to: /articles/using-remote-files-when-developing-locally-with-stage-file-proxy-module
+  - from: articles/2014/11/27/pantheon-settings-files
+    to: /articles/pantheon-settings-files
+  - from: articles/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides
+    to: /articles/include-local-drupal-settings-file-environment-configuration-and-overrides
+  - from: articles/2015/04/03/how-to-define-a-minimum-drupal-core-version
+    to: /articles/how-to-define-a-minimum-drupal-core-version
+  - from: articles/2015/06/18/updating-forked-repositories-on-github
+    to: /articles/updating-forked-repositories-on-github
+  - from: articles/2015/07/19/sculpin-twig-resources
+    to: /articles/sculpin-twig-resources
+  - from: articles/2015/07/21/automating-sculpin-jenkins
+    to: /articles/automating-sculpin-jenkins
+  - from: articles/2015/12/22/programmatically-load-an-entityform-in-drupal-7
+    to: /articles/programmatically-load-an-entityform-in-drupal-7
+  - from: articles/2016/02/15/announcing-the-drupal-vm-generator
+    to: /articles/announcing-the-drupal-vm-generator
+  - from: articles/2016/05/03/simplifying-drupal-migrations-with-xautoload
+    to: /articles/simplifying-drupal-migrations-with-xautoload
+  - from: articles/2016/07/15/building-gmail-filters-with-php
+    to: /articles/building-gmail-filters-with-php
+  - from: articles/2016/12/30/drupal-vm-generator-291-released
+    to: /articles/drupal-vm-generator-291-released
+  - from: articles/2017/01/07/easier-sculpin-commands-with-composer-and-npm-scripts
+    to: /articles/easier-sculpin-commands-with-composer-and-npm-scripts
+  - from: articles/2017/01/31/nginx-redirects-with-query-string-arguments
+    to: /articles/nginx-redirects-with-query-string-arguments
+  - from: articles/2017/05/05/fixing-drupal-simpletest-docker
+    to: /articles/2017/05/05/fixing-drupal-simpletest-issues-inside-docker-containers
+  - from: articles/2017/05/05/fixing-drupal-simpletest-issues-inside-docker-containers
+    to: /articles/fixing-drupal-simpletest-issues-inside-docker-containers
+  - from: articles/2017/06/09/introducing-the-drupal-meetups-twitterbot
+    to: /articles/introducing-the-drupal-meetups-twitterbot
+  - from: articles/2017/11/07/tdd-test-driven-drupal
+    to: /articles/tdd-test-driven-drupal
+  - from: articles/2017/11/07/writing-drupal-module-test-driven-development-tdd
+    to: /articles/2017/11/07/tdd-test-driven-drupal
+  - from: articles/2018/01/30/drupalcamp-bristol-2018
+    to: /articles/drupalcamp-bristol-2018
+  - from: articles/2018/02/05/using-tailwind-css-in-your-drupal-theme
+    to: /articles/using-tailwind-css-in-your-drupal-theme
+  - from: articles/2018/02/27/looking-forward-to-drupalcamp-london
+    to: /articles/looking-forward-to-drupalcamp-london
+  - from: articles/2018/02/27/queuing-private-messages-in-drupal-8
+    to: /articles/queuing-private-messages-in-drupal-8
+  - from: articles/2018/02/28/building-the-new-phpsw-website
+    to: /articles/building-the-new-phpsw-website
+  - from: articles/2018/03/02/yay-the-mediacurrent-contrib-half-hour-is-back
+    to: /articles/yay-the-mediacurrent-contrib-half-hour-is-back
+  - from: articles/2018/03/04/tweets-from-drupalcamp-london
+    to: /articles/tweets-from-drupalcamp-london
+  - from: articles/2018/05/06/creating-a-custom-phpunit-command-for-docksal
+    to: /articles/creating-a-custom-phpunit-command-for-docksal
+  - from: articles/announcing-the-drupal-vm-config-generator
+    to: /articles/announcing-the-drupal-vm-generator
+  - from: articles/drush-make-drupalbristol
+    to: /talks/drush-make-drupalbristol
+  - from: articles/system-users-null-users
+    to: /articles/null-users-and-system-users-in-drupal
+  - from: articles/tweets-from-drupalcamp-london
+    to: /articles/tweets-drupalcamp-london
+  - from: blog
+    to: /articles
+  - from: blog.xml
+    to: /feed
+  - from: book
+    to: /test-driven-drupal
+  - from: consulting
+    to: /
+  - from: cv
+    to: https://cv.oliverdavies.uk
+  - from: drupal
+    to: '%drupalorg.url%'
+  - from: drupalgive
+    to: https://www.drupal.org/u/opdavies
+  - from: experience
+    to: https://cv.oliverdavies.uk
+  - from: git-flow
+    to: /talks/git-flow
+  - from: github
+    to: '%github.url%'
+  - from: joindin
+    to: '%joindin.url%'
+  - from: linkedin
+    to: '%linkedin.url%'
+  - from: packagist
+    to: '%packagist.url%'
+  - from: services
+    to: /experience
+  - from: slides/bristol-dug/drupal-vm-generator
+    to: http://opdavies.github.io/slides-drupal-vm-generator
+  - from: slides/phpsw/building-static-websites-with-sculpin
+    to: https://opdavies.github.io/slides-phpsw-sculpin
+  - from: speakerdeck
+    to: '%speakerdeck.url%'
+  - from: speaking
+    to: /talks
+  - from: talks/2012/09/05/what-is-this-drupal-thing-unified-diff
+    to: /talks/what-is-this-drupal-thing
+  - from: talks/2013/07/10/drupal-ldap-swdug
+    to: /talks/drupal-ldap
+  - from: talks/2014/03/01/git-flow-drupalcamp-london-2014
+    to: /talks/git-flow
+  - from: talks/2014/07/02/drush-make-drupalbristol-drupal-bristol
+    to: /talks/drush-make-drupalbristol
+  - from: talks/2014/08/19/drupal-association-swdug
+    to: /talks/drupal-association
+  - from: talks/2015/01/18/drupalorg-2015-drupalcamp-brighton-2015
+    to: /talks/drupalorg-in-2015-whats-coming-next
+  - from: talks/2015/02/28/drupalorg-2015-drupalcamp-london-2015
+    to: /talks/drupalorg-in-2015-whats-coming-next
+  - from: talks/2015/04/08/drupal-8-phpsw
+    to: /talks/drupal-8
+  - from: talks/2015/07/25/test-drive-twig-with-sculpin-drupalcamp-north-2015
+    to: /talks/test-drive-twig-with-sculpin
+  - from: talks/2015/08/25/dancing-for-drupal-umbristol
+    to: /talks/dancing-for-drupal
+  - from: talks/2015/10/14/sculpin-phpsw
+    to: /talks/sculpin
+  - from: talks/2016/03/05/drupal-8-module-development-drupalcamp-london-2016
+    to: /talks/getting-started-with-drupal-8-module-development
+  - from: talks/2016/03/09/drupal-vm-generator-nwdug
+    to: /talks/drupal-vm-generator
+  - from: talks/2016/04/02/drupal-vm-generator-drupal-bristol
+    to: /talks/drupal-vm-generator
+  - from: talks/2016/06/11/drupal-8-rejoining-the-herd-php-south-coast-2016
+    to: /talks/drupal-8-rejoining-the-herd
+  - from: talks/2016/07/23/drupal-vm-meet-symfony-console-drupalcamp-bristol-2016
+    to: /talks/drupal-vm-meet-symfony-console
+  - from: talks/2016/11/09/drupal-development-with-composer-phpsw
+    to: /talks/drupal-development-with-composer
+  - from: talks/2016/11/17/goodbye-drush-make-hello-composer-drupal-bristol
+    to: /talks/goodbye-drush-make-hello-composer
+  - from: talks/2017/01/18/getting-your-data-into-drupal-8-drupal-bristol
+    to: /talks/getting-your-data-into-drupal-8
+  - from: talks/2017/03/04/getting-your-data-into-drupal-8-drupalcamp-london-2017
+    to: /talks/getting-your-data-into-drupal-8
+  - from: talks/archive
+    to: /talks
+  - from: talks/deploying-php-applications-with-fabric
+    to: /talks/deploying-php-fabric
+  - from: talks/drupal-vm-generator-2
+    to: /talks/drupal-vm-generator
+  - from: talks/drupalorg-2015-2
+    to: /talks/drupalorg-2015
+  - from: talks/drupalorg-in-2015-whats-coming-next
+    to: /talks/drupalorg-2015
+  - from: talks/getting-started-with-drupal-8-module-development
+    to: /drupal-8-module-development
+  - from: talks/sculpin
+    to: /talks/building-static-websites-sculpin
+  - from: talks/using-laravel-collections-outside-laravel
+    to: /talks/using-illuminate-collections-outside-laravel
+  - from: terms-and-conditions
+    to: /terms
+  - from: twitter
+    to: '%twitter.url%'
+  - from: work
+    to: /experience
+  - from: youtube
+    to: '%youtube.channel.url%'
+
+  - { from: 'automatically-updating-talk-created-date', to: 'https://gist.github.com/opdavies/4e75e1753d8603113f07f8264bb783d6' }
+  - { from: 'speaking-videos', to: 'https://www.youtube.com/playlist?list=PLHn41Ay7w7kfAzczswrANch5oHAPZBlvu' }
+  - { from: 'talks-offer-tweet', to: 'https://twitter.com/opdavies/status/1250870367712935938' }
+
+  # Moved from opdavi.es
+  - { from: 2PxmyqP,                          to: /articles/examples-of-laravel-collections-in-drupal }
+  - { from: 39CoG,                            to: /articles/drupalcamp-london-testing-workshop }
+  - { from: 3eGQr,                            to: https://github.com/howToCodeWell/howToCodeWellFM/blob/c927e0b3589f1d7375002f7fd70f0bfc9fc90449/composer.json#L17 }
+  - { from: 6i3YZ,                            to: https://www.youtube.com/watch?v=vUK5sEbd-dk }
+  - { from: 6UhLN,                            to: https://github.com/opdavies/sculpin-twig-markdown-bundle/pull/1 }
+  - { from: 9rv0Z,                            to: https://www.drupal.org/project/override_node_options/issues/3109852 }
+  - { from: acquia-certifications,            to: https://certification.acquia.com/registry?fname=Oliver&lname=Davies&city=&state=&country=United+Kingdom&org=&exam=All }
+  - { from: ansible,                          to: https://galaxy.ansible.com/opdavies }
+  - { from: ansible-molecule,                 to: /articles/test-driven-ansible-role-development-molecule }
+  - { from: ansistrano-code,                  to: https://github.com/opdavies/dransible }
+  - { from: ansistrano-demo,                  to: https://www.youtube.com/watch?v=PLS4ET7FAcU }
+  - { from: ansistrano-slides,                to: /talks/deploying-php-ansible-ansistrano }
+  - { from: BhMZi,                            to: https://git.drupalcode.org/search?utf8=%E2%9C%93&snippets=&scope=&repository_ref=8.x-1.x&search=baz&project_id=23203 }
+  - { from: cms-philly,                       to: /articles/presenting-on-tailwind-css-and-ansible-at-cms-philly }
+  - { from: contrib-half-hour,                to: https://www.youtube.com/playlist?list=PLu-MxhbnjI9rHroPvZO5LEUhr58Yl0j_F }
+  - { from: contribution-day,                 to: https://github.com/microserve-io/contribution-day/ }
+  - { from: d0P5z,                            to: /talks/drupal-8-php-libraries-drupalorg-api }
+  - { from: dcbristol-cfp,                    to: https://www.papercall.io/drupalcamp-bristol-2019 }
+  - { from: dcbristol17-videos,               to: https://www.youtube.com/playlist?list=PLOwPvExSyLLngtd6R4PUD9MCXa6QL_obA }
+  - { from: dcbristol19-announced,            to: /articles/drupalcamp-bristol-2019-speakers-sessions-announced }
+  - { from: dclondon-sat,                     to: https://drupalcamp.london/schedule/saturday }
+  - { from: dclondon-sun,                     to: https://drupalcamp.london/schedule/sunday }
+  - { from: dclondon20,                       to: /articles/drupalcamp-london-testing-workshop }
+  - { from: deploying-php-ansible,            to: /talks/deploying-php-ansible-ansistrano }
+  - { from: dks7E,                            to: https://www.youtube.com/watch?v=PLS4ET7FAcU }
+  - { from: do-library,                       to: https://github.com/opdavies/drupalorg-api-php }
+  - { from: do-projects,                      to: https://github.com/opdavies/drupal-module-drupalorg-projects }
+  - { from: docksal-phpunit-phpstorm,         to: /articles/running-phpunit-tests-docksal-phpstorm }
+  - { from: docksal-posts,                    to: /articles/tags/docksal }
+  - { from: dransible,                        to: https://github.com/opdavies/dransible }
+  - { from: drupal-bristol-march-19,          to: https://docs.google.com/presentation/d/1pk9LIN-hHX73kvDdo-lzgmKlAeH33_K_uvI0t7A-rvY/edit?usp=sharing }
+  - { from: drupal-core-testing-gate,         to: https://www.drupal.org/core/gates#testing }
+  - { from: drupal-first-time-issues,         to: https://www.drupal.org/project/issues/search?text=&projects=&assigned=&submitted=&project_issue_followers=&status%5B%5D=Open&issue_tags_op=%3D&issue_tags=Novice }
+  - { from: drupal-forum-post,                to: http://www.webmaster-forums.net/webmasters-corner/developing-my-website-using-php-and-mysql#comment-1231537 }
+  - { from: drupal-marketplace-uk,            to: https://www.drupal.org/drupal-services?offices%5B%5D=24460 }
+  - { from: drupal-meetups-twitterbot,        to: /articles/introducing-the-drupal-meetups-twitterbot }
+  - { from: drupal-novice-issues,             to: https://www.drupal.org/project/issues/search?text=&projects=&assigned=&submitted=&project_issue_followers=&status%5B%5D=Open&issue_tags_op=%3D&issue_tags=Novice }
+  - { from: drupal-tailwind-demo,             to: https://www.youtube.com/watch?v=1eM-Gw6GI4g }
+  - { from: drupal-tailwindcss,               to: https://www.drupal.org/project/tailwindcss }
+  - { from: drupal-vuejs,                     to: /talks/decoupling-drupal-vuejs/ }
+  - { from: drupalcamp-london-2019-tickets,   to: /articles/drupalcamp-london-2019-tickets }
+  - { from: drupalorg-project-issues,         to: https://www.drupal.org/project/issues/search?projects=Override+Node+Options%2C+Tailwind+CSS+Starter+Kit%2C+Block+ARIA+Landmark+Roles%2C+Copyright+Block+module%2C+System+User%2C+Null+User%2C+Collection+class%2C+Pathauto+Menu+Link%2C+Webform+ARIA&project_issue_followers=&status%5B%5D=1&status%5B%5D=13&status%5B%5D=8&status%5B%5D=14&status%5B%5D=15&issue_tags_op=%3D }
+  - { from: drupalversary,                    to: https://github.com/opdavies/drupal-module-drupalversary }
+  - { from: elewant,                          to: https://elewant.com/shepherd/admire/opdavies }
+  - { from: first-drupal-core-issue,          to: https://www.drupal.org/project/drupal/issues/753898 }
+  - { from: first-npm-package,                to: https://www.npmjs.com/package/tailwindcss-vuejs }
+  - { from: freeagent,                        to: https://opdavies.freeagent.com }
+  - { from: gitlab,                           to: https://gitlab.com/opdavies }
+  - { from: gitstore,                         to: https://enjoy.gitstore.app/maintainers/opdavies }
+  - { from: gmail-filters,                    to: https://gitlab.com/opdavies/gmail-filters }
+  - { from: join-php-south-wales-slack,       to: https://join.slack.com/t/phpsouthwales/shared_invite/zt-4vuetc43-AvtEK1WqNzp5k1w4yWKOJA }
+  - { from: jy6rW,                            to: https://www.meetup.com/PHP-South-Wales/events/264731393 }
+  - { from: kB6Jd,                            to: /articles/running-drupal-with-symfony-local-server/ }
+  - { from: kmDRA,                            to: https://www.bbc.co.uk/news/uk-46561779 }
+  - { from: london-half-term-map,             to: https://www.google.com/maps/d/u/0/viewer?mid=1d-7ruqjlm2vKF_Fwhu_-5CDfr2TyUuhB&hl=en&ll=51.50411420613797%2C-0.12409831347656564&z=13 }
+  - { from: luke-dinosaurs,                   to: https://luke-dinosaurs.netlify.com/ }
+  - { from: luke-recycling,                   to: https://luke-recycling.netlify.com/ }
+  - { from: microserve-issues,                to: https://www.drupal.org/project/issues/search?status[]=Open&issue_tags=Microserve }
+  - { from: microserve-issues-need-review,    to: https://www.drupal.org/project/issues/search?projects=&project_issue_followers=&status%5B%5D=8&issue_tags_op=%3D&issue_tags=Microserve }
+  - { from: NBi5h,                            to: https://git.drupalcode.org/search?utf8=%E2%9C%93&search=bar&group_id=&project_id=23203&search_code=true&repository_ref=8.x-1.x&nav_source=navbar }
+  - { from: npm,                              to: https://www.npmjs.com/~opdavies }
+  - { from: oFlkS,                            to: /articles/test-driven-drupal-on-gitstore-leanpub }
+  - { from: P5KQ5,                            to: https://www.npmjs.com/package/tailwindcss-skip-link }
+  - { from: photo-lab-fun-family-portraits,   to: https://www.apple.com/uk/today/event/photo-lab-fun-family-portraits/6512343695143329889 }
+  - { from: php-ansible,                      to: /talks/deploying-php-ansible-ansistrano }
+  - { from: php-south-wales-sept-19,          to: https://joind.in/event/php-south-wales---september-2019-double-docker }
+  - { from: php-south-wales-slack-invite,     to: https://join.slack.com/t/phpsouthwales/shared_invite/zt-4vuetc43-AvtEK1WqNzp5k1w4yWKOJA }
+  - { from: php-south-wales-videos,           to: https://www.youtube.com/channel/UCzQRSSaIV2Ajvl81BxPQDZA }
+  - { from: pv176,                            to: https://www.sainsburys.co.uk/shop/gb/groceries/paper---notebooks-44/sainsburys-home-midnight-opulence-a4-floral-notebook-133870966-p }
+  - { from: qSHAl,                            to: /articles/published-my-first-npm-package/ }
+  - { from: qT1Rb,                            to: https://github.com/opdavies/drupal-meetups-twitterbot }
+  - { from: rebuilding-acquia,                to: https://rebuilding-acquia.oliverdavies.uk }
+  - { from: rebuilding-bartik,                to: /articles/rebuilding-bartik-with-vuejs-tailwind-css }
+  - { from: rebuilding-platformsh,            to: https://rebuilding-platformsh.oliverdavies.uk }
+  - { from: rk29B,                            to: https://www.meetup.com/PHP-South-Wales/events/268422525 }
+  - { from: ruralelec-slider,                 to: https://www.youtube.com/watch?v=-x80ymicm5E }
+  - { from: S8ZDA,                            to: /articles/rebuilding-bartik-with-vuejs-tailwind-css-part-2 }
+  - { from: s9MjJ,                            to: https://symfonycasts.com/screencast/symfony }
+  - { from: sculpin-encore-versioning,        to: https://github.com/opdavies/oliverdavies.uk/commit/d192b04aefa6e7a21bfc1f2e0fe0a16111e0e8a2 }
+  - { from: sIGnJ,                            to: https://microserve.io }
+  - { from: skills,                           to: https://opdavies-skills-tailwindcss.netlify.com/ }
+  - { from: sprint-day,                       to: https://github.com/microserve-io/contribution-day/ }
+  - { from: sprint-setup,                     to: https://github.com/microserve-io/contribution-day/ }
+  - { from: stream,                           to: https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ/live }
+  - { from: swap-markdown-parser,             to: https://github.com/opdavies/sculpin-twig-markdown-bundle-example/tree/swap-markdown-parser }
+  - { from: symfony-server,                   to: /articles/running-drupal-with-symfony-local-server }
+  - { from: symfonylive,                      to: /articles/live-blogging-symfonylive-london }
+  - { from: symposium,                        to: https://symposiumapp.com/u/opdavies }
+  - { from: tailwind-repos,                   to: https://github.com/opdavies?utf8=%E2%9C%93&tab=repositories&q=tailwindcss }
+  - { from: tailwind-talk,                    to: /talks/taking-flight-with-tailwind-css }
+  - { from: tailwindcss-demo,                 to: http://tailwindcss-demo.oliverdavies.uk/ }
+  - { from: talks/tailwind,                   to: /talks/taking-flight-with-tailwind-css/ }
+  - { from: tdd-blog,                         to: https://github.com/opdavies/drupal-module-tdd-blog }
+  - { from: tdd-test-driven-drupal,           to: /talks/tdd-test-driven-drupal/ }
+  - { from: testing-tailwind-plugins,         to: /articles/testing-tailwindcss-plugins-with-jest }
+  - { from: testing-workshop,                 to: https://github.com/opdavies/workshop-drupal-automated-testing }
+  - { from: testing-workshop-code,            to: https://github.com/opdavies/workshop-drupal-automated-testing-code }
+  - { from: todoist-filters,                  to: https://gist.github.com/opdavies/6709fbdac5c3babbd94137bcc8b8e3c2 }
+  - { from: twitter-tweaks,                   to: https://github.com/opdavies/chrome-extension-twitter-tweaks }
+  - { from: uxbjV,                            to: https://www.drupal.org/project/copyright_block }
+  - { from: vyTEF,                            to: https://www.npmjs.com/package/tailwindcss-vuejs }
+  - { from: webpack-encore-pcss-regex,        to: https://regexr.com/51iaf }
+  - { from: Wh48P,                            to: https://github.com/opdavies/oliverdavies.uk/blob/master/source/_partials/talk/video.html.twig }
+  - { from: wordcamp-bristol-tailwindcss,     to: https://2019.bristol.wordcamp.org/session/taking-flight-with-tailwind-css }
+  - { from: wordpress-tailwind,               to: https://github.com/opdavies/wordcamp-bristol-2019 }
+  - { from: workshop-drupal-testing,          to: https://github.com/opdavies/workshop-drupal-automated-testing }
+  - { from: wp-tailwind,                      to: https://wp-tailwind.oliverdavies.uk }
+  - { from: wp-tailwind-repo,                 to: https://github.com/opdavies/wordcamp-bristol-2019 }
+  - { from: wp-tailwind-starter,              to: https://github.com/opdavies/wordpress-tailwindcss-startker-kit }
+  - { from: wp-tailwind-static,               to: https://wp-tailwind.oliverdavies.uk }
+  - { from: XbzS2,                            to: https://github.com/opdavies/gmail-filter-builder }
+  - { from: YilTZ,                            to: https://drupalcamp.london/tickets/training }
+  - { from: YK1VH,                            to: /articles/psr4-autoloading-test-cases-drupal-7 }
+  - { from: yXhoS,                            to: /talks/things-you-should-know-about-php }

@@ -1,0 +1,24 @@
+---
+permalink: tags.json
+use: [posts]
+---
+{% set tags = [] %}
+
+{% for post in data.posts %}
+    {% for tag in post.tags %}
+        {% if tag not in tags %}
+            {% set tags = tags|merge([ tag ]) %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+{
+    "tags": [
+        {% for i, tag in tags|sort %}
+            {
+                "id": "{{ i }}",
+                "name": "{{ tag }}"
+            }{% if not loop.last %},{% endif %}
+        {% endfor %}
+    ]
+}

@@ -1,0 +1,37 @@
+---
+permalink: talks.json
+use: [talks]
+---
+
+{
+    "talks": [
+        {% for talk in data.talks %}
+            {
+                "id": "{{ loop.index }}",
+                "title": {{ talk.title|json_encode|raw }},
+                "description": "{{ talk.description }}",
+                "path": "{{ talk.url|trim('/', 'right') }}",
+                "content": {{ talk.blocks.content|json_encode|raw }},
+                "video": {
+                    "type": "{{ talk.video.type }}",
+                    "id": "{{ talk.video.id }}"
+                },
+                "speakerdeck": {
+                    "id": "{{ talk.speakerdeck.id }}",
+                    "ratio": "{{ talk.speakerdeck.ratio }}"
+                },
+                "events": [
+                    {% for event in talk.events %}
+                        {
+                            "date": "{{ event.date }}",
+                            "remote": "{{ event.remote ? 'true' : 'false' }}",
+                            "name": "{{ site.events[event.event].name }}",
+                            "location": "{{ site.events[event.event].location }}",
+                            "url": "{{ site.events[event.event].url }}"
+                        }{% if not loop.last %},{% endif %}
+                    {% endfor %}
+                ]
+            }{% if not loop.last %},{% endif %}
+        {% endfor %}
+    ]
+}
