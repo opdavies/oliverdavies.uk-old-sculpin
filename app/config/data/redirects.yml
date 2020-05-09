@@ -311,6 +311,10 @@ redirects:
   - from: youtube
     to: '%youtube.channel.url%'
 
+  - { from: 'automatically-updating-talk-created-date', to: 'https://gist.github.com/opdavies/4e75e1753d8603113f07f8264bb783d6' }
+  - { from: 'speaking-videos', to: 'https://www.youtube.com/playlist?list=PLHn41Ay7w7kfAzczswrANch5oHAPZBlvu' }
+  - { from: 'talks-offer-tweet', to: 'https://twitter.com/opdavies/status/1250870367712935938' }
+
   # Moved from opdavi.es
   - { from: 2PxmyqP,                          to: /articles/examples-of-laravel-collections-in-drupal }
   - { from: 39CoG,                            to: /articles/drupalcamp-london-testing-workshop }
